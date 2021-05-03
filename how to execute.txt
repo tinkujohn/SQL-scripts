@@ -1,0 +1,12 @@
+1. Execute main_sql.sql file
+2. Execute create_sql.sql file
+3. create TEST table
+
+Execute dbo.QA_CHECK  
+SP accepts 3 parameters
+
+ 1. Test ID
+ 2. QA TEST table name
+ 3. KV pairs of parameters
+
+ Sample execution -  exec dbo.QA_CHECK '3_test', 'qa_tests','tablename = all_products, ids = 560 '
